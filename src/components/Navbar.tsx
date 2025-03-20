@@ -30,7 +30,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex h-20 justify-between items-center">
           <NavLink to="/" className="flex text-white text-xl font-bold items-center">
-            <img src="src/img/logo.png" alt="MMC Logo" className="h-12" />
+            <img src="./src/img/logo.png" alt="MMC Logo" className="h-12" />
           </NavLink>
 
           {/* Desktop Navigation */}
