@@ -221,7 +221,7 @@ export default function HomePage() {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Building2 className="mr-3" />
-                  <p>Jl. Kesehatan No. 123, Jakarta</p>
+                  <p>Jl.Raya Blora-Rembang Km.8 Blora, Jawa Tengah</p>
                 </div>
                 <div className="flex items-center">
                   <Phone className="mr-3" />

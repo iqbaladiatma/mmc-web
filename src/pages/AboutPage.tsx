@@ -10,7 +10,7 @@ export default function AboutPage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          Tentang Klinik Sehat
+          Tentang Medang Medical Care
         </motion.h1>
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
@@ -53,7 +53,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-2xl font-semibold text-[#3E144C] mb-4">Sejarah Kami</h2>
               <p className="text-gray-600">
-                Didirikan pada tahun 2010, Klinik Sehat telah menjadi pionir dalam pelayanan kesehatan modern di Jakarta. 
+                Didirikan pada tahun 2010, Klinik MMC telah menjadi pionir dalam pelayanan kesehatan modern di Blora. 
                 Bermula dari sebuah klinik kecil, kami telah berkembang menjadi pusat kesehatan terpadu yang melayani 
                 ribuan pasien setiap tahunnya.
               </p>

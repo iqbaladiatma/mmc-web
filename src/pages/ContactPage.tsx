@@ -27,7 +27,7 @@ export default function ContactPage() {
                   <Building2 className="text-[#3E144C] mr-3 mt-1" />
                   <div>
                     <h3 className="font-semibold">Alamat</h3>
-                    <p className="text-gray-600">Jl. Kesehatan No. 123, Jakarta Selatan</p>
+                    <p className="text-gray-600">Jl.Raya Blora-Rembang Km.8 Blora, Jawa Tengah</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -41,7 +41,7 @@ export default function ContactPage() {
                   <Mail className="text-[#3E144C] mr-3 mt-1" />
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-600">info@kliniksehat.com</p>
+                    <p className="text-gray-600">medangmedicalcare@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start">
