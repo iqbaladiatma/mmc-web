@@ -21,7 +21,7 @@ export default function Navbar() {
     { path: "/about", label: "Tentang Kami" },
     { path: "/facilities", label: "Fasilitas" },
     { path: "/doctors", label: "Dokter" },
-    { path: "/blog", label: "Blog" },
+    { path: "/news", label: "Berita" },
     { path: "/contact", label: "Kontak" },
   ];
 
@@ -30,8 +30,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex h-20 justify-between items-center">
           <NavLink to="/" className="flex text-white text-xl font-bold items-center">
-            <span className="text-2xl mr-2">🏥</span>
-            <span>Klinik Sehat</span>
+            <img src="src/img/logo.png" alt="MMC Logo" className="h-12" />
           </NavLink>
 
           {/* Desktop Navigation */}
@@ -53,7 +52,7 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="text-white md:hidden" onClick={() => setIsOpen(!isOpen)}>
+          <button className="text-white md:hidden md:mb-7" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
